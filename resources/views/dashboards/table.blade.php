@@ -43,6 +43,8 @@
                                   <td class="text-left py-3 px-4 border-b border-grey-light"> {{ $listing->location }}</td>
                                   <td class="text-left py-3 px-4 border-b border-grey-light"> {{ $listing->model }}</td>
                                   <td class="w-1/3 text-left py-3 px-4 border-b border-grey-light">{{ $listing->price }}</td>
+                                  <td class="w-1/3 text-left py-3 px-4 border-b border-grey-light"><x-listing-tags :tagsCsv="$listing-> tags"/>
+                                  </td>
                                 </tr>
                                 @endforeach
                                 @else
@@ -50,8 +52,12 @@
                                 @endunless
                             </tbody>
                         </table>
+                        <div class="mt-6 p-4">
+                          {{$listings->links()}}
+                        </div>
                     </div>
                 </div>
+                
 
                 <div class="w-full mt-12">
                     <p class="text-xl pb-3 flex items-center">

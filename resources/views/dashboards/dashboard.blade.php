@@ -5,7 +5,9 @@
   <div class="w-full overflow-x-hidden border-t flex flex-col">
     <main class="w-full flex-grow p-6">
       <h1 class="text-3xl text-black pb-6">Dashboard</h1>
-
+      {{-- For search --}}
+      @include('partials._dashsearch')
+      {{-- End of search --}}
       <div class="w-full mt-12">
         <p class="text-xl pb-3 flex items-center">
           <i class="fas fa-list mr-3"></i> Latest Reports
@@ -44,7 +46,8 @@
                 <td class="text-left py-3 px-4 border-b border-grey-light"> {{ $listing->model }}</td>
                 <td class="w-1/3 text-left py-3 px-4 border-b border-grey-light">{{ $listing->price }}</td>
                 {{-- For tags not yet defined --}}
-                {{-- <td class="w-1/3 text-left py-3 px-4"><x-listing-tags :tagsCsv="$dashboards-> tags"/></td> --}}
+                <td class="w-1/3 text-left py-3 px-4 border-b border-grey-light"><x-listing-tags :tagsCsv="$listing-> tags"/>
+                </td>
               </tr>
               @endforeach
               @else
@@ -57,6 +60,9 @@
         </div>
       </div>
     </main>
+    <div class="mt-6 p-4">
+      {{$listings->links()}}
+    </div>
 
     <footer class="w-full bg-white text-right p-4">
       Built by <a target="_blank" href="#" class="underline">WonderBoys</a>.

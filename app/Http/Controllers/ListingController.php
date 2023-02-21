@@ -20,7 +20,7 @@ class ListingController extends Controller
         // $listing = Listing::all();
         // dd($listing);
         return view('listings.property',[
-            'listings' => Listing::latest()->filter(request(['tag','search']))->paginate(9)
+            'listings' => Listing::latest()->filter(request(['tag','search']))->paginate(6)
         ] );
     }
 
