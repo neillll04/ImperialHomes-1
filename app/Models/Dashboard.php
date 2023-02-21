@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Listing extends Model
+class Dashboard extends Model
 {
     use HasFactory;
 
@@ -32,9 +32,7 @@ class Listing extends Model
         return $this->belongsTo(User::class, 'user_id');
     }
 
-    public function dashboards()
-    {
-        // assuming that the user has many dashboards
-        return $this->hasMany(Dashboard::class);
+    public function listings() {
+        return $this->hasMany(Listing::class, 'user_id');
     }
 }
