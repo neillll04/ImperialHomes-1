@@ -31,4 +31,10 @@ class Listing extends Model
     public function user() {
         return $this->belongsTo(User::class, 'user_id');
     }
+
+    public function dashboards()
+    {
+        // assuming that the user has many dashboards
+        return $this->hasMany(Dashboard::class);
+    }
 }

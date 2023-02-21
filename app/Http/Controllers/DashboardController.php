@@ -15,7 +15,10 @@ class DashboardController extends Controller
      $users = User::count();
    
 
-        return view('dashboards.dashboard', compact('listing','users'));
+        return view('dashboards.dashboard', compact('listing','users'),[
+            'listings' => Listing::latest()->filter(request(['tag','search']))->paginate(9)
+        ]);
+
     }
 
     public function table() {
@@ -25,4 +28,8 @@ class DashboardController extends Controller
     public function form() {
         return view('dashboards.form');
     }
+    
+
+    /*  */
+    
 }

@@ -15,7 +15,7 @@
   >
     <div class="flex justify-center items-center h-full">
       <div class="text-center text-white px-6 md:px-12">
-        <ol class="list-reset flex items-center justify-center">
+        <ol class="title2 list-reset flex items-center justify-center">
           <li>
             <a href="#" class="text-1xl text-white hover:text-black"
               >Home</a
@@ -28,7 +28,7 @@
             >
           </li>
         </ol>
-        <h3 class="text-7xl text-amber-500 font-bold mb-8 animate__animated animate__fadeInUp animate__fast">PROPERTIES</h3>
+        <h3 class="title text-7xl text-amber-500 font-bold mb-8">PROPERTIES</h3>
       </div>
     </div>
   </div>

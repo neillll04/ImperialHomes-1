@@ -4,8 +4,8 @@
  style="background-image:url('./images/hero-bg.jpg')"> 
  <div class="bg-black/50 w-full h-350 pt-10">
   <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
-    <h3 class="text-3xl font-bold mb-6 text-amber-500">Testimonials</h3>
-    <p class="mb-6 pb-2 md:mb-12 md:pb-0 text-white">
+    <h3 class="title text-4xl font-bold mb-6 text-amber-500">Testimonials</h3>
+    <p class="title2 mb-6 pb-2 md:mb-12 md:pb-0 text-white">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
       amet numquam iure provident voluptate esse quasi, veritatis totam
       voluptas nostrum quisquam eum porro a pariatur veniam.
@@ -14,7 +14,7 @@
 
     <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div class="swiper-container !overflow-hidden">
-        <div class="swiper-wrapper">
+        <div class="card swiper-wrapper">
 
           <div class="swiper-slide">
             <div>

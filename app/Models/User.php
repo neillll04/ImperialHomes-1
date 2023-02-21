@@ -47,10 +47,11 @@ class User extends Authenticatable
     public function listings() {
         return $this->hasMany(Listing::class, 'user_id');
     }
+    
     protected function role(): Attribute
      {
         return new Attribute(
             get: fn($value) => ['user','admin'][$value]
         );
-    }
+
 }
