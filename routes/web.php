@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisterController;
 use App\Models\Listing;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
@@ -103,3 +104,9 @@ Route::middleware(['auth', 'user-role:admin'])->group(function ()
 {
     Route::get('/admin/home',[HomeController::class,'adminHome'])->name('home.admin');
 });
+
+//Admin 
+
+Route::get('/register/admin',[RegisterController::class, 'index']);
+
+Route::post('/register/admin',[RegisterController::class, 'createAdmin'])->name('register.admin'); 

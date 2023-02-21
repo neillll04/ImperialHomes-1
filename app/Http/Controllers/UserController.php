@@ -10,7 +10,7 @@ class UserController extends Controller
 {
     //Show Register Create Form
     public function create() {
-        return view('users.register');
+        // return view('users.register');
     }
 
     //Create New User
@@ -19,11 +19,11 @@ class UserController extends Controller
             'name' => ['required', 'min:3'],
             'email' => ['required','email', Rule::unique('users', 'email')],
             'password' => 'required|confirmed|min:6'
+            
         ]);
 
         //Hash Password
         $formFields['password'] = bcrypt($formFields['password']);
-
         //Create User
         $user = User::create($formFields);
         //Login
