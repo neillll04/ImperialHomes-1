@@ -2,22 +2,23 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use App\Models\Listing;
-use App\Models\Dashboard;
 use Illuminate\Http\Request;
-use Illuminate\Validation\Rule;
+use Illuminate\Routing\Controller;
 
 class DashboardController extends Controller
 {
-    // public function dashboard() {
-    //     return view('dashboards.dashboard');
-    // }
+    public function dashboard() {
 
-    public function dashboard()
-    {
-        return view('dashboards.dashboard',[
+     $listing= Listing::count();
+     $users = User::count();
+   
+
+        return view('dashboards.dashboard', compact('listing','users'),[
             'listings' => Listing::latest()->filter(request(['tag','search']))->paginate(9)
-        ] );
+        ]);
+
     }
 
     public function table() {

@@ -51,12 +51,4 @@ class RouteServiceProvider extends ServiceProvider
     }
 
     //This code creates a new route group that is prefixed with /admin 
-    protected function mapAdminRoutes()
-{
-    Route::prefix('admin')
-        ->middleware(['web', 'auth', 'admin'])
-        ->name('admin.')
-        ->namespace($this->namespace . '\Admin')
-        ->group(base_path('routes/admin.php'));
-}
 }
