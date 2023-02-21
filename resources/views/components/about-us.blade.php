@@ -2,17 +2,17 @@
 <div id="about-us" class="about-us container my-24 px-6 mx-auto">
   <section id="about-Us" class="mb-32 text-gray-800 text-center">
 
-    <h2 class="text-3xl font-bold mb-12 pb-4 text-center text-amber-500">About Us</h2>
+    <h2 class="title text-4xl font-bold mb-12 pb-4 text-center text-white"><span class="text-amber-500">About</span> Us</h2>
 
     <div class="flex flex-col lg:flex-row">
 
       <div class="text flex flex-col ml-9">
 
         <div class="font-semibold text-3xl mt-5 text-left">
-          <h1><span class="text-amber-500">ImperialHomes</span><span class="text-white"> A Real Estate Company</span> </h1>
+          <h1 class="title2 "><span class="text-amber-500">ImperialHomes</span><span class="text-white"> A Real Estate Company</span> </h1>
         </div>
 
-        <div class="text-left text-white">
+        <div class="content text-left text-white">
           <p class="pt-9 font-medium">
             Welcome to our real estate company, where we are dedicated to
             providing top-notch services to help you find your dream home or
@@ -38,7 +38,7 @@
 
         <div class="flex flex-row justify-between w-full px-4 relative mt-9">
 
-          <div class="counter-cols basis-1/5">
+          <div class="card2 counter-cols basis-1/5">
             <div
               class="counter-box bg-amber-500 text-white w-full h-full pt-7 pb-7 rounded-2xl shadow-lg shadow-neutral-400">
               <h2 class="text-4xl m-2 counter">10</h2>
@@ -46,7 +46,7 @@
             </div>
           </div>
 
-          <div class="counter-cols basis-1/5">
+          <div class="card2 counter-cols basis-1/5">
             <div
               class="counter-box bg-amber-500 text-white w-full h-full pt-7 pb-7 rounded-2xl shadow-lg shadow-neutral-400">
               <h2 class="text-4xl m-2 counter">200</h2>
@@ -54,7 +54,7 @@
             </div>
           </div>
 
-          <div class="counter-cols basis-1/5">
+          <div class="card2 counter-cols basis-1/5">
             <div
               class="counter-box bg-amber-500 text-white w-full h-full pt-7 pb-7 rounded-2xl shadow-lg shadow-neutral-400">
               <h2 class="text-4xl m-2 counter">25</h2>
@@ -62,7 +62,7 @@
             </div>
           </div>
 
-          <div class="counter-cols basis-1/5">
+          <div class="card2 counter-cols basis-1/5">
             <div
               class="counter-box bg-amber-500 text-white w-full h-full pt-7 pb-7 rounded-2xl shadow-lg shadow-neutral-400">
               <h2 class="text-4xl m-2 counter">100</h2>
