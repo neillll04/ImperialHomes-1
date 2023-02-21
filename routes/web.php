@@ -77,7 +77,12 @@ Route::middleware('admin')->group(function () {
     })->name('dashboard');
 });
 
-Route::get('/dashboard', [DashboardController::class, 'dashboard']);
+
+// Dashboard
+Route::middleware(['auth'])->group(function () {
+    Route::get('/dashboard', [DashboardController::class, 'dashboard']);
+});
+Route::put('/dashboard/{dashboard}', [DashboardController::class, 'update']);
 
 Route::get('/dashboard/table', [DashboardController::class, 'table']);
 
