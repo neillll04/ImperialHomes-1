@@ -22,7 +22,9 @@ class DashboardController extends Controller
     }
 
     public function table() {
-        return view('dashboards.table');
+        return view('dashboards.table',[
+            'listings' => Listing::latest()->filter(request(['tag','search']))->paginate(4)
+        ] );
     }
 
     public function form() {
