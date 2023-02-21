@@ -8,7 +8,7 @@
     ></script>
 
   <x-card>
-        <section>
+        <section class="card">
           <div class="rounded-lg shadow-lg bg-white mx-2 mt-10">
     
             <img

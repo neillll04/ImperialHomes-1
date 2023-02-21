@@ -1,11 +1,13 @@
 <?php
 
+use App\Http\Controllers\Auth\RegisterController;
 use App\Models\Listing;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ListingController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -66,23 +68,7 @@ Route::get('/login', [UserController::class, 'login'])->name('login')->middlewar
 //Login User
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
 
-//Admin
-Route::get('/adminregister', [AdminController::class, 'create']);
-
-Route::post('/admin', [AdminController::class, 'store']);
-
-Route::middleware('admin')->group(function () {
-    Route::get('/dashboard', function () {
-        return view('admin.dashboard');
-    })->name('dashboard');
-});
-
-
-// Dashboard
-Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard', [DashboardController::class, 'dashboard']);
-});
-Route::put('/dashboard/{dashboard}', [DashboardController::class, 'update']);
+Route::get('/dashboard', [DashboardController::class, 'dashboard']);
 
 Route::get('/dashboard/table', [DashboardController::class, 'table']);
 
@@ -103,3 +89,24 @@ Route::post('/contact', function (\Illuminate\Http\Request $request) {
 
     return redirect('/contact')->with('success', 'Your message has been sent!');
 });
+
+//Roles
+
+Auth::routes();
+//User Route
+Route::middleware(['auth', 'user-role:user'])->group(function () 
+{
+    Route::get('/home',[HomeController::class,'userHome'])->name('home');
+});
+
+//Admin Route
+Route::middleware(['auth', 'user-role:admin'])->group(function () 
+{
+    Route::get('/admin/home',[HomeController::class,'adminHome'])->name('home.admin');
+});
+
+//Admin 
+
+Route::get('/register/admin',[RegisterController::class, 'index']);
+
+Route::post('/register/admin',[RegisterController::class, 'createAdmin'])->name('register.admin'); 

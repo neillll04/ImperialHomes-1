@@ -4,14 +4,14 @@
   <!-- Section: Design Block -->
   <section class="mb-32 text-gray-800 text-center">
 
-    <h2 class="text-3xl font-bold mb-12 pb-4 text-center text-amber-500">Featured Properties</h2>
+    <h2 class="title text-4xl font-bold mb-12 pb-4 text-center text-white"><span class="text-amber-500">Featured</span> Properties</h2>
 
     <div class="grid lg:grid-cols-3 gap-3 xl:gap-x-4">
-      <div class="mb-6 lg:mb-0">
+      <div class="card mb-6 lg:mb-0">
         <div class="relative block bg-white rounded-lg shadow-lg h-full">
           <div class="flex">
             <div
-              class="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+              class="img1 relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
               data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/024.webp" class="w-full" />
               <a href="#!">
@@ -40,11 +40,11 @@
       </div>
 
 
-      <div class="mb-6 lg:mb-0">
+      <div class="card mb-6 lg:mb-0">
         <div class="relative block bg-white rounded-lg shadow-lg h-full">
           <div class="flex">
             <div
-              class="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+              class="img1 relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
               data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/031.webp" class="w-full" />
               <a href="#!">
@@ -76,11 +76,11 @@
       </div>
 
 
-      <div class="mb-0">
+      <div class="card mb-0">
         <div class="relative block bg-white rounded-lg shadow-lg h-full">
           <div class="flex">
             <div
-              class="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+              class="img1 relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
               data-mdb-ripple="true" data-mdb-ripple-color="light">
               <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/081.webp" class="w-full" />
               <a href="#!">

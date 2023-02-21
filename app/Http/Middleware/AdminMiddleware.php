@@ -14,12 +14,11 @@ class AdminMiddleware
      * @param  \Closure  $next
      * @return mixed
      */
-    public function handle(Request $request, Closure $next)
+    public function handle()
     {
-        if ($request->user() && $request->user()->role !== 'admin') {
-            abort(403, 'Unauthorized action.');
+     //
         }
 
-        return $next($request);
-    }
+       
+    
 }
