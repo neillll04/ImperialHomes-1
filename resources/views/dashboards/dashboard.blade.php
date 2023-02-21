@@ -6,6 +6,71 @@
     <main class="w-full flex-grow p-6">
       <h1 class="text-3xl text-black pb-6">Dashboard</h1>
 
+      <div class="container  mx-auto grid">
+            
+        <!-- Cards -->
+        <div class="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-4">
+          <!-- Card -->
+          <div class="flex items-center p-6 bg-gray-200 rounded-lg shadow-xs dark:bg-gray-800">
+            <div class="p-3 mr-4">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <div>
+              <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                Total Properties
+              </p>
+              <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                {{$listing}}
+              </p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="flex items-center p-6 bg-gray-200 rounded-lg shadow-xs dark:bg-gray-800">
+            <div class="p-3 mr-4">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div>
+              <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                  Total Users
+              </p>
+              <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                {{$users}}
+              </p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="flex items-center p-6 bg-gray-200 rounded-lg shadow-xs dark:bg-gray-800">
+              <div class="p-3 mr-4">
+                <i class="fa-solid fa-lock"></i>
+                </div>
+            <div>
+              <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+                Admins
+              </p>
+              <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                2
+              </p>
+            </div>
+          </div>
+          <!-- Card -->
+          <div class="flex items-center p-6 bg-gray-200 rounded-lg shadow-xs dark:bg-gray-800">
+           
+            <div class="p-3 mr-4">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div>
+              <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">
+               For sale
+              </p>
+              <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">
+                35
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
       <div class="w-full mt-12">
         <p class="text-xl pb-3 flex items-center">
           <i class="fas fa-list mr-3"></i> Latest Reports
