@@ -8,30 +8,30 @@
           background: hsla(0, 0%, 100%, 0.8);
           backdrop-filter: blur(30px);
         ">
-        <div class="text-center mx-auto font-medium text-2xl text-amber-500">
-          <h1>Contact Us</h1>
+        <div class="text-center mx-auto font-medium text-4xl text-cyan-500">
+          <h1 class="title"><span class="text-amber-500">Contact</span> Us</h1>
         </div>
         <br />
         <br />
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-6 mb-12">
-          <div class="mb-12 lg:mb-0 text-center mx-auto">
+          <div class="icon mb-12 lg:mb-0 text-center mx-auto">
             <i class="fa-solid fa-earth-asia fa-2x text-amber-500"></i>
             <h6 class="font-medium">Philippines</h6>
           </div>
-          <div class="mb-12 lg:mb-0 text-center mx-auto">
+          <div class="icon mb-12 lg:mb-0 text-center mx-auto">
             <i class="fa-solid fa-location-dot fa-2x text-amber-500"></i>
             <h6 class="font-medium">Manila</h6>
           </div>
-          <div class="mb-6 md:mb-0 text-center mx-auto">
+          <div class="icon mb-6 md:mb-0 text-center mx-auto">
             <i class="fa-solid fa-phone fa-2x text-amber-500"></i>
             <h6 class="font-medium">+63 927 349 1294</h6>
           </div>
-          <div class="text-center mx-auto">
+          <div class="icon text-center mx-auto">
             <i class="fa-solid fa-envelope fa-2x text-amber-500"></i>
             <h6 class="font-medium">Wonderhome@gmail.com</h6>
           </div>
         </div>
-        <div class="max-w-[700px] mx-auto">
+        <div class="content max-w-[700px] mx-auto">
           <form>
             <div class="form-group mb-6">
               <input type="text"
