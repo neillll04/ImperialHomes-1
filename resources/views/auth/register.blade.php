@@ -11,7 +11,7 @@
       >
       <div class="h-full p-10 bg-black/50 w-full">
         <div
-          class="flex h-full flex-wrap items-center justify-center text-white">
+          class="flex h-full flex-wrap items-center justify-center text-black">
           <div class="lg:w-3/5">
             <div
               class="block rounded-lg bg-gradient-to-t from-cyan-800/80 to-cyan-400/80 shadow-lg">
@@ -28,7 +28,7 @@
                       <form method="POST" action="/users">
                         @csrf
                           <div class="mb-2">
-                              <label for="name" class="inline-block text-lg mb-1">
+                              <label for="name" class="inline-block text-lg mb-1 text-white">
                                   Name
                               </label>
                               <input
@@ -43,7 +43,7 @@
                           </div>
                     
                           <div class="mb-2">
-                              <label for="email" class="inline-block text-lg mb-1"
+                              <label for="email" class="inline-block text-lg mb-1 text-white"
                                   >Email</label
                               >
                               <input
@@ -61,7 +61,7 @@
                           <div class="mb-2">
                               <label
                                   for="password"
-                                  class="inline-block text-lg mb-1"
+                                  class="inline-block text-lg mb-1 text-white"
                               >
                                   Password
                               </label>
@@ -78,7 +78,7 @@
                           <div class="mb-3">
                               <label
                                   for="password2"
-                                  class="inline-block text-lg mb-1"
+                                  class="inline-block text-lg mb-1 text-white"
                               >
                                   Confirm Password
                               </label>
@@ -103,7 +103,7 @@
                         </div>                             
                             </button>
                           <div class="flex items-center justify-between pb-6">
-                            <p class="mb-0 mr-2">Already have an account?</p>
+                            <p class="mb-0 mr-2 text-white">Already have an account?</p>
                             <button
                               type="button"
                               class="inline-block px-6 py-2 border-2 border-amber-500 text-amber-500 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"

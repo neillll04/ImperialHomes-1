@@ -75,10 +75,10 @@
                             </thead>
                             <tbody>
                                 <tr class="hover:bg-grey-lighter">
-                                    <td class="py-4 px-6 border-b border-grey-light">Lian</td>
-                                    <td class="py-4 px-6 border-b border-grey-light">Smith</td>
-                                    <td class="py-4 px-6 border-b border-grey-light">622322662</td>
-                                    <td class="py-4 px-6 border-b border-grey-light">jonsmith@mail.com</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->propertyType }}</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->location }}</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->model }}</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->price }}</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -101,10 +101,10 @@
                             </thead>
                             <tbody>
                                 <tr class="hover:bg-grey-lighter">
-                                    <td class="py-4 px-6 border-b border-grey-light">Lian</td>
-                                    <td class="py-4 px-6 border-b border-grey-light">Smith</td>
-                                    <td class="py-4 px-6 border-b border-grey-light">622322662</td>
-                                    <td class="py-4 px-6 border-b border-grey-light">jonsmith@mail.com</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->propertyType }}</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->location }}</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->model }}</td>
+                                    <td class="py-4 px-6 border-b border-grey-light">{{ $listing->price }}</td>
                                 </tr>
                             </tbody>
                         </table>
