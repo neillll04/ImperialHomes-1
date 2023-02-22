@@ -69,11 +69,11 @@ Route::get('/login', [UserController::class, 'login'])->name('login')->middlewar
 //Login User
 Route::post('/users/authenticate', [UserController::class, 'authenticate']);
 
-Route::get('/dashboard', [DashboardController::class, 'dashboard']);
+Route::get('/dashboard', [DashboardController::class, 'dashboard'])->middleware('user-role:admin');
 
-Route::get('/dashboard/table', [DashboardController::class, 'table']);
+Route::get('/dashboard/table', [DashboardController::class, 'table'])->middleware('user-role:admin');
 
-Route::get('/dashboard/form', [DashboardController::class, 'form']);
+Route::get('/dashboard/form', [DashboardController::class, 'form'])->middleware('user-role:admin');
 
 //Contact 
 Route::get('/contact', function () {
@@ -85,7 +85,7 @@ Route::post('/contact', function (\Illuminate\Http\Request $request) {
     $email = $request->input('email');
     $content = $request->input('content');
 
-    \Illuminate\Support\Facades\Mail::to('andreielacion5@gmail.com')
+    \Illuminate\Support\Facades\Mail::to('imperialhomes@gmail.com')
         ->send(new \App\Mail\ContactForm($name, $email, $content));
 
     return redirect('/contact')->with('success', 'Your message has been sent!');
@@ -111,3 +111,4 @@ Route::middleware(['auth', 'user-role:admin'])->group(function ()
 Route::get('/register/admin',[RegisterController::class, 'index']);
 
 Route::post('/register/admin',[RegisterController::class, 'createAdmin'])->name('register.admin'); 
+

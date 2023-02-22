@@ -17,11 +17,18 @@ class UserRoleMiddleware
      */
     public function handle(Request $request, Closure $next, $role)
     {   
+        // dd($role);
         if(Auth::check() && Auth::user()->role == $role) 
         {
-            return $next($request);
+            return $next($request); 
         }
-        return response()->json(["You don't have permission to access this page"]);
-        
+       
+    // If the user is not authenticated, redirect them to the login page
+    if (Auth::guest()) {
+        return redirect()->guest('login');
+    }
+    
+    // If the user is authenticated but their role does not match, return a 403 Forbidden response
+    return response()->view('errors.403');  
     }
 }
