@@ -113,7 +113,7 @@
               </tr>
               @endforeach
               @else
-                <p class="text-center text-white text-2xl p-5 pt-5">No Listings Found</p>  
+                <p class="text-center text-2xl p-5 pt-5">No Listings Found</p>  
               @endunless
             </tbody>
           </table>
