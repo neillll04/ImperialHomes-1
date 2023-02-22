@@ -71,6 +71,11 @@
 
       </div>
 
+      {{-- For search --}}
+      @include('partials._dashsearch')
+      {{-- End of search --}}
+
+
       <div class="w-full mt-12">
         <p class="text-xl pb-3 flex items-center">
           <i class="fas fa-list mr-3"></i> Latest Reports
@@ -109,17 +114,21 @@
                 <td class="text-left py-3 px-4 border-b border-grey-light"> {{ $listing->model }}</td>
                 <td class="w-1/3 text-left py-3 px-4 border-b border-grey-light">{{ $listing->price }}</td>
                 {{-- For tags not yet defined --}}
-                {{-- <td class="w-1/3 text-left py-3 px-4"><x-listing-tags :tagsCsv="$dashboards-> tags"/></td> --}}
+                <td class="w-1/3 text-left py-3 px-4 border-b border-grey-light"><x-listing-tags :tagsCsv="$listing-> tags"/>
+                </td>
               </tr>
               @endforeach
               @else
-                <p class="text-center text-2xl p-5 pt-5">No Listings Found</p>  
+                <p class="text-center text-black text-2xl p-5 pt-5">No Listings Found</p>  
               @endunless
             </tbody>
           </table>
         </div>
       </div>
     </main>
+    <div class="mt-6 p-4">
+      {{$listings->links()}}
+    </div>
     <footer class="w-full bg-white text-right p-4">
       Built by <a target="_blank" href="#" class="underline">WonderBoys</a>.
     </footer>
