@@ -6,11 +6,6 @@
     <main class="w-full flex-grow p-6">
       <h1 class="text-3xl text-black pb-6">Dashboard</h1>
 
-      {{-- For search --}}
-      @include('partials._dashsearch')
-      {{-- End of search --}}
-
-
       <div class="container  mx-auto grid">
             
         <!-- Cards -->
@@ -76,6 +71,10 @@
 
       </div>
 
+      {{-- For search --}}
+      @include('partials._dashsearch')
+      {{-- End of search --}}
+
 
       <div class="w-full mt-12">
         <p class="text-xl pb-3 flex items-center">
@@ -120,7 +119,7 @@
               </tr>
               @endforeach
               @else
-                <p class="text-center text-white text-2xl p-5 pt-5">No Listings Found</p>  
+                <p class="text-center text-black text-2xl p-5 pt-5">No Listings Found</p>  
               @endunless
             </tbody>
           </table>

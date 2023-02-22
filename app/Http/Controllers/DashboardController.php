@@ -10,7 +10,6 @@ use Illuminate\Routing\Controller;
 
 class DashboardController extends Controller
 {
-    public function dashboard() {
 
 
     public function dashboard()
@@ -38,5 +37,4 @@ class DashboardController extends Controller
     
 
     /*  */
-    
 }
