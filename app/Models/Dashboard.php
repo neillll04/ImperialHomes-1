@@ -23,7 +23,8 @@ class Dashboard extends Model
                 ->orWhere('location', 'like', '%' . request('search') . '%' )
                 ->orWhere('tags', 'like', '%' . request('search') . '%' )
                 ->orWhere('price', 'like', '%' . request('search') . '%' )
-                ->orWhere('description', 'like', '%' . request('search') . '%' );
+                ->orWhere('description', 'like', '%' . request('search') . '%' )
+                ->orWhere('tag', 'like', '%' . request('search') . '%' );
         }
     }
 

@@ -17,8 +17,32 @@
          href="/listings/create"
          class="text-white"
          >Post Properties</a
-     ></button>               
-         <li>
+     ></button>  
+     
+<button id="multiLevelDropdownButton" data-dropdown-toggle="dropdown" class="text-white" type="button"> <svg class="w-4 h-4 ml-2" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
+<!-- Dropdown menu -->
+<div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 ">
+    <ul class="py-2 text-sm text-black" aria-labelledby="multiLevelDropdownButton">
+      <li>
+        <a href="/dashboard" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
+      </li>
+      <li>
+        <a href="/listings/manage" class="block px-4 py-2 hover:bg-gray-100">Manage Properties</a>
+    
+      </li>
+     
+      <li>
+        <form class="inline" method="POST" action="/logout">
+          @csrf
+        <button type="submit" class="block px-4 py-2 w-44 text-left hover:bg-gray-100">
+        Sign out
+      </button>
+    </form>
+      </li>
+    </ul>
+</div>
+             
+         {{-- <li>
              <a href="/listings/manage" class="hover:text-laravel"
                  ><span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"><i class="fa-solid fa-gear"></i>
                  </span></a
@@ -30,15 +54,15 @@
              <button type="submit">
                  <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white" ><i class="fa-solid fa-right-from-bracket"></i></span>
              </button>
-             </form>
+             </form> --}}
          </li>
          @else
-         <li>
+         <li class="lg:text-sm">
              <a href="/register" class="text-white"
                  ><i class="fa-solid fa-user-plus"></i> Register</a
              >
          </li>
-         <li>
+         <li class="lg:text-sm">
              <a href="/login" class="text-white"
                  ><i class="fa-solid fa-arrow-right-to-bracket"></i>
                  Login</a

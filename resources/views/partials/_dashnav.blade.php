@@ -1,7 +1,7 @@
-<aside class="relative bg-sidebar h-screen w-64 hidden sm:block shadow-xl">
+<aside class=" bg-sidebar h-screen w-64 hidden sm:block shadow-xl">
     <div class="p-6">
       <a
-        href="index.html"
+        href="/dashboard"
         class="text-white text-3xl font-semibold uppercase hover:text-gray-300"
         >Admin</a
       >
@@ -28,20 +28,16 @@
         <i class="fas fa-table mr-3"></i>
         Tables
       </a>
-      <a
-        href="/dashboard/form"
-        class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item"
-      >
-        <i class="fas fa-align-left mr-3"></i>
-        Forms
-      </a>
-      <a
-          href="#"
-          class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item"
+      <form class="inline" method="POST" action="/logout">
+        @csrf
+      <button
+          type="submit"
+          class="flex items-center w-60 text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item"
         >
           <i class="fas fa-sign-out-alt mr-3"></i>
           Sign Out
-        </a>
+      </button>
+      </form>
     </nav>
   </aside>
 
@@ -70,7 +66,7 @@
     >
       <div class="flex items-center justify-between">
         <a
-          href="index.html"
+          href="/dashboard"
           class="text-white text-3xl font-semibold uppercase hover:text-gray-300"
           >Admin</a
         >
@@ -87,7 +83,7 @@
       <nav :class="isOpen ? 'flex': 'hidden'" class="flex flex-col pt-4">
         <a
           href="/dashboard"
-          class="flex items-center active-nav-link text-white py-2 pl-4 nav-item"
+          class="flex items-center text-white py-2 pl-4 nav-item"
         >
           <i class="fas fa-tachometer-alt mr-3"></i>
           Dashboard
@@ -99,20 +95,17 @@
           <i class="fas fa-table mr-3"></i>
           Tables
         </a>
-        <a
-          href="/dashboard/form"
-          class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item"
-        >
-          <i class="fas fa-align-left mr-3"></i>
-          Forms
-        </a>
-        <a
-          href="#"
-          class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item"
-        >
-          <i class="fas fa-sign-out-alt mr-3"></i>
-          Sign Out
-        </a>
+        <form class="inline" method="POST" action="/logout">
+          @csrf
+        <button
+            type="submit"
+            class="flex items-center w-60 text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item"
+          >
+            <i class="fas fa-sign-out-alt mr-2"></i>
+            Sign Out
+        </button>
+        </form>
+        </form>
       </nav>
       <!-- <button class="w-full bg-white cta-btn font-semibold py-2 mt-5 rounded-br-lg rounded-bl-lg rounded-tr-lg shadow-lg hover:shadow-xl hover:bg-gray-300 flex items-center justify-center">
               <i class="fas fa-plus mr-3"></i> New Report

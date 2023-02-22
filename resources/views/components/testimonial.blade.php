@@ -37,8 +37,7 @@
                         d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                       </path>
                     </svg>
-                    Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing
-                    elit.
+                    "I can't say enough good things about ImperialHomes. Their team was extremely professional, knowledgeable, and went above and beyond to ensure we found the perfect home. They provided excellent guidance throughout the process and were always available to answer any questions we had. Thanks to their hard work, we are now settled into our dream home, and we couldn't be happier. I highly recommend their services!" 
                   </p>
                 </div>
               </div>
@@ -63,8 +62,7 @@
                         d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                       </path>
                     </svg>
-                    Neque cupiditate assumenda in maiores repudi mollitia
-                    architecto.
+                    "I recently worked with ImperialHomes to purchase my first home, and she was absolutely fantastic. She was patient, responsive, and always had my best interests in mind. She helped me navigate the complicated process of buying a home, and her knowledge of the local real estate market was invaluable. Thanks to her hard work and dedication, I am now a proud homeowner. I highly recommend her services to anyone looking to buy or sell real estate."
                   </p>
                 </div>
               </div>
@@ -89,8 +87,7 @@
                         d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                       </path>
                     </svg>
-                    Delectus impedit saepe officiis ab aliquam repellat rem unde
-                    ducimus.
+                    I had the pleasure of working with ImperialHomes to sell my investment property, and I couldn't be happier with the results. Their team was professional, responsive, and provided valuable insights on how to best market my property. They worked tirelessly to attract potential buyers and ultimately helped me sell my property at a great price. I would highly recommend their services to anyone looking to buy or sell real estate.
                   </p>
                 </div>
               </div>
@@ -118,8 +115,7 @@
                         d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                       </path>
                     </svg>
-                    Lorem ipsum dolor sit amet eos adipisci, consectetur adipisicing
-                    elit.
+                    "Working with ImperialHomes was an absolute pleasure. She was extremely knowledgeable about the local real estate market and provided valuable insights throughout the process. She was always available to answer any questions I had and helped me find the perfect home for me and my family. I highly recommend her services to anyone looking to buy or sell real estate." 
                   </p>
                 </div>
               </div>
@@ -144,8 +140,8 @@
                         d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                       </path>
                     </svg>
-                    Neque cupiditate assumenda in maiores repudi mollitia
-                    architecto.
+                    I recently worked with ImperialHomes to purchase my first home, and she was absolutely fantastic. She was patient, responsive, and always had my best interests in mind. She helped me navigate the complicated process of buying a home, and her knowledge of the local real estate market was invaluable. Thanks to her hard work and dedication, I am now a proud homeowner. I highly recommend her services to anyone looking to buy or sell real estate."
+                  
                   </p>
                 </div>
               </div>
@@ -170,8 +166,8 @@
                         d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z">
                       </path>
                     </svg>
-                    Delectus impedit saepe officiis ab aliquam repellat rem unde
-                    ducimus.
+                    "I can't say enough good things about ImperialHomes. Their team was extremely professional, knowledgeable, and went above and beyond to ensure we found the perfect home. They provided excellent guidance throughout the process and were always available to answer any questions we had. Thanks to their hard work, we are now settled into our dream home, and we couldn't be happier. I highly recommend their services!" 
+                 
                   </p>
                 </div>
               </div>

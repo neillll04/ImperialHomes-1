@@ -2,12 +2,14 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
-use App\Providers\RouteServiceProvider;
 use App\Models\User;
-use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
+use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Foundation\Auth\RegistersUsers;
 
 class RegisterController extends Controller
 {
@@ -68,6 +70,29 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'role' => 0
         ]);
+    }
+    public function createAdmin(Request $request)
+    {
+        $formFields = $request->validate([
+            'name' => ['required', 'min:3'],
+            'email' => ['required','email', Rule::unique('users', 'email')],
+            'password' => 'required|confirmed|min:6'
+            
+        ]);
+
+        //Hash Password
+        $formFields['password'] = bcrypt($formFields['password']);
+        $formFields['role'] = 1;
+        //Create User
+        $user = User::create($formFields);
+        //Login
+        auth()->login($user); 
+
+        return redirect('/dashboard')->with('message', 'User created and logged in!');
+    }
+    public function index() {
+        return view('users.adminRegister');
     }
 }

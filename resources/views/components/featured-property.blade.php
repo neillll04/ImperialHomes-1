@@ -11,9 +11,9 @@
         <div class="relative block bg-white rounded-lg shadow-lg h-full">
           <div class="flex">
             <div
-              class="img1 relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+              class="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
               data-mdb-ripple="true" data-mdb-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/024.webp" class="w-full" />
+              <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/024.webp" class="img1 w-full" />
               <a href="#!">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
@@ -28,9 +28,7 @@
                 <a href="" class="text-gray-900">Anna Maria Doe</a></small>
             </p>
             <p class="mb-4 pb-2">
-              Ut pretium ultricies dignissim. Sed sit amet mi eget urna
-              placerat vulputate. Ut vulputate est non quam dignissim
-              elementum. Donec a ullamcorper diam.
+              well-designed, lush, and abundant with plants, flowers, and other natural elements that create a peaceful and serene environment.
             </p>
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light"
               class="inline-block px-6 py-2.5 bg-amber-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-amber-400 hover:shadow-lg focus:bg-amber-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-400 active:shadow-lg transition duration-150 ease-in-out">Read
@@ -44,9 +42,9 @@
         <div class="relative block bg-white rounded-lg shadow-lg h-full">
           <div class="flex">
             <div
-              class="img1 relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+              class="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
               data-mdb-ripple="true" data-mdb-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/031.webp" class="w-full" />
+              <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/031.webp" class="img1 w-full" />
               <a href="#!">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
@@ -61,12 +59,7 @@
                 <a href="" class="text-gray-900">Halley Frank</a></small>
             </p>
             <p class="mb-4 pb-2">
-              Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
-              diam orci, nec ornare metus semper sed. Integer volutpat
-              ornare erat sit amet rutrum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-              voluptatibus autem earum, nesciunt nostrum vitae libero sequi alias laborum dolorem laboriosam
-              obcaecati sint. Mollitia culpa, maxime non quo eum totam unde nisi! Provident deserunt nam porro
-              veritatis omnis ex iusto?
+              Travel to Italy can be a wonderful experience, offering beautiful scenery, rich history, delicious food, and a vibrant culture. Here are some tips to help you plan your trip to Italy:
             </p>
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light"
             class="inline-block px-6 py-2.5 bg-amber-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-amber-400 hover:shadow-lg focus:bg-amber-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-400 active:shadow-lg transition duration-150 ease-in-out">Read
@@ -80,9 +73,9 @@
         <div class="relative block bg-white rounded-lg shadow-lg h-full">
           <div class="flex">
             <div
-              class="img1 relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
+              class="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4"
               data-mdb-ripple="true" data-mdb-ripple-color="light">
-              <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/081.webp" class="w-full" />
+              <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/081.webp" class="img1 w-full" />
               <a href="#!">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
@@ -97,9 +90,9 @@
                 <a href="" class="text-gray-900">Joe Svan</a></small>
             </p>
             <p class="mb-4 pb-2">
-              Curabitur tristique, mi a mollis sagittis, metus felis mattis
-              arcu, non vehicula nisl dui quis diam. Mauris ut risus eget
-              massa volutpat feugiat. Donec.
+              Chasing the sun is a phrase often used to describe the act of seeking out warmer climates, usually during the winter months. Many people who live in colder regions of the world may travel to sunnier destinations to escape the cold and enjoy some warmth and sunshine.
+
+Some popular destinations for chasing the sun include tropical locations like Hawaii, the Caribbean, and Southeast Asia. These destinations offer warm weather year-round and are popular among those looking to escape the winter chill.
             </p>
             <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light"
             class="inline-block px-6 py-2.5 bg-amber-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-amber-400 hover:shadow-lg focus:bg-amber-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-amber-400 active:shadow-lg transition duration-150 ease-in-out">Read
