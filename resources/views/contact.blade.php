@@ -1,7 +1,29 @@
-<div style="background-image: url('/images/bg2.jpg')" class="w-full h-960 bg-fixed bg-cover bg-center">
+<div style="background-image: url('/images/deal1.jpg')" class="w-full h-960 bg-fixed bg-cover bg-no-repeat bg-center">
 <x-layout>
 
+    <div>
+        <a href="/" class="inline-block text-white hover:text-amber-500 rounded-md py-2 px-4 "
+        ><i class="fa-solid fa-arrow-left"></i> Back
+      </a>
+      @if (session('success'))
+      <div x-data="{show: true}" x-init="setTimeout(() => show = false, 5000)" x-show="show" class="alert alert-success flex fixed left-0 top-0 transform bg-yellow-500 text-white px-20 py-3 ml-20 animate__animated animate__fadeInDown">
+      {{ session('success') }}
+      </div>
+      @endif
+    </div>
 
+    {{-- ======================================
+    @if(session()->has('message'))
+    <div x-data="{show: true}" x-init="setTimeout(() => show = false, 5000)" x-show="show" class="flex fixed left-0 top-0 transform bg-yellow-500 text-white px-20 py-3 animate__animated animate__fadeInDown">
+      <div class="flex items-center justify-center mx-3">
+        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <p>{{session('message')}}</p>
+    </div>
+    @endif
+    ========================== --}}
 {{-- <form action="/contact" method="POST">
     @csrf
 
@@ -22,11 +44,7 @@
 
     <button type="submit" class="btn btn-primary">Send Message</button>
 </form> --}}
-        @if (session('success'))
-        <div class="alert alert-success flex justify-center absolute left-0 top-0 transform bg-yellow-500 text-white px-20 py-3 animate__animated animate__fadeInDown">
-        {{ session('success') }}
-        </div>
-        @endif
+
 <section class="px-32 py-52 text-gray-800">
     <div class="text-gray-800 px-4 md:px-12">
       <div class="block rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6 bg-gradient-to-t from-cyan-800/60 to-cyan-500/40" style="
